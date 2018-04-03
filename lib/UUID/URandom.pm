@@ -5,7 +5,7 @@ use warnings;
 package UUID::URandom;
 # ABSTRACT: UUIDs based on /dev/urandom or the Windows Crypto API
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use Exporter 5.57 qw/import/;
 use Crypt::URandom 0.36 ();
